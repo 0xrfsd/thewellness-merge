@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-thewellnessbr-dev-135908-authRole",
+      "UnauthRoleArn": "arn:aws:iam::606531244255:role/amplify-thewellnessbr-dev-135908-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::606531244255:role/amplify-thewellnessbr-dev-135908-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-thewellnessbr-dev-135908-deployment",
+      "UnauthRoleName": "amplify-thewellnessbr-dev-135908-unauthRole",
+      "StackName": "amplify-thewellnessbr-dev-135908",
+      "StackId": "arn:aws:cloudformation:us-east-1:606531244255:stack/amplify-thewellnessbr-dev-135908/c796f650-7c41-11eb-8d5a-1260e6a1f297",
+      "AmplifyAppId": "d32v24gjam9yut"
+    }
+  },
+  "auth": {
+    "thewellnessbra17fa518": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-thewellnessbr-dev-135908-deployment/amplify-cfn-templates/auth/thewellnessbra17fa518-cloudformation-template.yml",
+        "logicalId": "auththewellnessbra17fa518"
+      },
+      "lastPushTimeStamp": "2021-03-03T17:06:15.901Z",
+      "output": {
+        "UserPoolId": "us-east-1_fxAprBldh",
+        "AppClientIDWeb": "vm307q4s1saart56l7rg2bcpl",
+        "AppClientID": "7k2sr09vg0u7ucjsh124qr6288",
+        "IdentityPoolId": "us-east-1:712298fb-6896-405b-aee9-6ea60b50a284",
+        "IdentityPoolName": "thewellnessbra17fa518_identitypool_a17fa518__dev",
+        "UserPoolName": "thewellnessbra17fa518_userpool_a17fa518"
+      },
+      "lastPushDirHash": "11RIgtxlTDn7JvB3ydaxSpYafNA="
+    }
+  }
+}
